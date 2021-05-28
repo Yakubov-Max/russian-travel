@@ -6,7 +6,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* стили для малого смартфона */
   .lead__image {
     width: 100vw;
   }
