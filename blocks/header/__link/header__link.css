@@ -1,0 +1,23 @@
+.header__link {
+ align-self: center;
+
+
+
+ font-weight: normal;
+ line-height: 28px;
+ font-size: 24px;
+ text-decoration: none;
+ color: white;
+}
+
+.header__link:last-child {
+  padding-left: 18px;
+}
+
+@media screen and (max-width: 375px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 111%;
+
+  }
+}

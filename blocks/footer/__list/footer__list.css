@@ -1,0 +1,19 @@
+.footer__list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  /* стили для среднего смартфона */
+  .footer__list {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .footer__list {
+    flex-direction: column;
+  }
+}

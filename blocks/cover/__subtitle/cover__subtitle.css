@@ -1,0 +1,28 @@
+.cover__subtitle {
+  margin: 0;
+  text-align: center;
+
+  display: inline;
+
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122%;
+
+  max-width: 360px;
+  z-index: 1;
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 114%;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 288px;
+    max-height: 48px;
+  }
+}

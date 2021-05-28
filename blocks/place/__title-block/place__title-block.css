@@ -1,0 +1,4 @@
+.place__title-block {
+  display: flex;
+  flex-direction: column;
+}

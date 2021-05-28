@@ -1,0 +1,40 @@
+.section-space_narrow {
+  padding-left: 148px;
+  padding-right: 148px;
+  max-width: 984px;
+
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+  /* стили для планшета в альбомной ориентации */
+  .section-space_narrow {
+    padding-left: 48px;
+    padding-right: 48px;
+    max-width: 928px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+  .section-space_narrow {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* стили для широкого смартфона */
+}
+@media screen and (max-width: 375px) {
+  /* стили для среднего смартфона */
+}
+@media screen and (max-width: 375px) {
+  /* стили для малого смартфона */
+  .section-space_narrow {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 288px;
+  }
+}

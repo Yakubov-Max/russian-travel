@@ -1,0 +1,38 @@
+.lead__title {
+  margin: 0;
+
+  text-align: center;
+
+  padding-bottom: 32px;
+
+
+  max-width: 720px;
+  font-size: 96px;
+  line-height: 104%;
+  font-weight: 900;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 750px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 110%;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* стили для широкого смартфона */
+}
+@media screen and (max-width: 375px) {
+  /* стили для среднего смартфона */
+}
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .lead__title {
+    font-size: 40px;
+    line-height: 110%;
+  }
+}
