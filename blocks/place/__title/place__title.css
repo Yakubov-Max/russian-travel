@@ -1,21 +1,17 @@
 .place__title {
   margin: 0;
-  display: inline-block;
   padding-bottom: 48px;
-
   font-weight: 900;
   line-height: 76px;
   font-size: 72px;
 }
 @media screen and (max-width: 768px) {
-  /* стили для планшета */
   .place__title {
     font-size: 42px;
     line-height: 110%;
   }
 }
 @media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
   .place__title {
     font-size: 32px;
     line-height: 109%;

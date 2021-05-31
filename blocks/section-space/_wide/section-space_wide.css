@@ -2,12 +2,10 @@
   padding-left: 48px;
   padding-right: 48px;
   max-width: 1184px;
-
   margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
-  /* стили для планшета */
   .section-space_wide {
     padding-left: 24px;
     padding-right: 24px;
@@ -15,7 +13,6 @@
   }
 }
 @media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
   .section-space_wide {
     padding-left: 16px;
     padding-right: 16px;

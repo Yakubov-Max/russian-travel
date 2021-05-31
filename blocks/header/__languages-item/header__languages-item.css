@@ -1,0 +1,8 @@
+.header__languages-item {
+  padding-left: 18px;
+  }
+
+  .header__languages-item:first-child {
+    padding-left: 0px;
+  }
+
