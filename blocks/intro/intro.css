@@ -3,3 +3,10 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

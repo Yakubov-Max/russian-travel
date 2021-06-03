@@ -1,11 +1,12 @@
-.place__website {
-  grid-area: url;
-  align-self: flex-end;
+.place__text-block {
+  grid-area: text;
 }
 
 @media screen and (max-width: 320px) {
-  .place__website {
+  .place__text-block {
+    max-width: 288px;
     padding-left: 16px;
     padding-right: 16px;
   }
 }
+

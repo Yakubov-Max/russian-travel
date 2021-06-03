@@ -9,3 +9,8 @@
     padding-right: 0;
   }
 }
+@media screen and (max-width: 320px) {
+  .cover {
+    padding-top: 66px;
+  }
+}
