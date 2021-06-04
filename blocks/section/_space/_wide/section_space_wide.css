@@ -5,7 +5,14 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .section_space_wide {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 360px) {
   .section_space_wide {
     padding-left: 16px;
     padding-right: 16px;
